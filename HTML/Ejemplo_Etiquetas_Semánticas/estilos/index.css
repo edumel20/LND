@@ -1,1 +1,33 @@
-
+header {
+    background-color: black;
+    color: white;
+    float:left
+}
+body{
+    margin: left;
+    margin-top: 10 px;
+    background-color: rgb(6, 204, 188);
+    float: left;
+}
+nav{
+    border-style: solid;
+    border-width: 0.1cm;
+    background-color: blue;
+    width: 500px;
+    height: auto;
+}
+main {
+    margin: left;
+    margin-top: 10 px;
+    background-color: aquamarine;
+    width: 200px;
+}
+footer {
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+}
+aside {
+    background-color: azure;
+    width: 200px;
+}
