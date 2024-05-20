@@ -72,7 +72,7 @@ section p {
 }
 
 #Nike img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -94,7 +94,7 @@ section p {
 }
 
 #Adidas img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -115,7 +115,7 @@ section p {
     color: #666; /* Col*/
 }
 #Converse img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -136,7 +136,7 @@ section p {
     color: #666; /* Col*/
 }
 #New_Balance img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -157,7 +157,7 @@ section p {
     color: #666; /* Col*/
 }
 #Reebok img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 1rem auto;
