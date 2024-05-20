@@ -6,6 +6,10 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
+    background-image: url('images/tu-imagen-de-fondo.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 body {
@@ -47,8 +51,8 @@ nav ul li {
 }
 
 nav ul li a img {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     transition: transform 0.3s;
 }
 
