@@ -2,6 +2,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+
 }
 
 header {
@@ -51,7 +53,7 @@ section {
 }
 
 section p {
-    color: #666;
+    color: #333;
 }
 
 #Nike {
@@ -69,12 +71,106 @@ section p {
     color: #666; /* Color del texto del párrafo */
 }
 
+#Nike img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#Adidas {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#Adidas h3 {
+    color: #333;
+}
+
+#Adidas p {
+    font-size: 1rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.5; /* Altura de línea para el párrafo */
+    color: #666; /* Col*/
+}
+
+#Adidas img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#Converse {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#Converse h3 {
+    color: #333;
+}
+
+#Converse p{
+    font-size: 1rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.5; /* Altura de línea para el párrafo */
+    color: #666; /* Col*/
+}
+#Converse img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#New_Balance {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#New_Balance h3 {
+    color: #333;
+}
+
+#New_Balance p {
+    font-size: 1rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.5; /* Altura de línea para el párrafo */
+    color: #666; /* Col*/
+}
+#New_Balance img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#Reebok {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#Reebok h3 {
+    color: #333;
+}
+
+#Reebok p {
+    font-size: 1rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.5; /* Altura de línea para el párrafo */
+    color: #666; /* Col*/
+}
+#Reebok img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador */
+    bottom: 0; /* Coloca el footer al final de la ventana del navegador */
+    left: 0; /* Asegura que el footer comience desde el borde izquierdo */
+    z-index: 100; /* Ajusta el índice z para que esté por encima de otros elementos */
 }
