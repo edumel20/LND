@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -48,6 +48,25 @@ nav ul li a:hover {
 section {
     padding: 2rem;
     text-align: center;
+}
+
+section p {
+    color: #666;
+}
+
+#Nike {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem; /* Añadir un margen superior a la sección */
+}
+
+#Nike h3 {
+    color: #333; /* Color del título */
+}
+
+#Nike p {
+    font-size: 1rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.5; /* Altura de línea para el párrafo */
+    color: #666; /* Color del texto del párrafo */
 }
 
 footer {
