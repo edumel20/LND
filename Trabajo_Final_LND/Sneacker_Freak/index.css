@@ -6,7 +6,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
-    background-image: url('images/tu-imagen-de-fondo.jpg'); /* Ruta a la imagen de fondo */
+    background-image: url(''); /* Ruta a la imagen de fondo */
     background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -41,13 +41,14 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex; /* Cambia a flex para poner los elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
     gap: 1rem; /* Espacio entre elementos */
 }
 
 nav ul li {
-    margin: 10px 0;
+    margin: 0 10px; /* Ajusta el margen para que los elementos tengan espacio entre ellos */
 }
 
 nav ul li a img {
@@ -57,8 +58,9 @@ nav ul li a img {
 }
 
 nav ul li a img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 section {
     padding: 2rem;
     text-align: center;

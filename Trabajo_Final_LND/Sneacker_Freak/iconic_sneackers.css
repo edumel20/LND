@@ -49,6 +49,32 @@ nav ul li a:hover {
 section {
     padding: 2rem;
     text-align: center;
+    color:#444
+}
+
+#Nike_Jordan_1 {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem;
+}
+
+#Adidas_Superstar {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem;
+}
+
+#Converse_All_Star {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem;
+}
+
+#New_Balance_574 {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem;
+}
+
+#Reebok_Classic_Leather {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-top: 2rem;
 }
 
 footer {
@@ -57,6 +83,5 @@ footer {
     text-align: center;
     padding: 1rem 0;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
