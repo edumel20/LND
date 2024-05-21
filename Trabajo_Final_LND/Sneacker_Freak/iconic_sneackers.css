@@ -18,7 +18,7 @@ header h1 {
 }
 
 nav {
-    margin-top: 1rem; /* Añade un margen superior al navegador */
+    margin-top: 1rem;
 }
 
 nav ul {
@@ -48,40 +48,39 @@ nav ul li a:hover {
 
 section {
     padding: 2rem;
-    text-align: center;
-    color:#444
+    color: #444;
 }
 
-.video-container {
+.content-section {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 20px 0; 
+    justify-content: space-between;
+    margin: 2rem 0;
+    gap: 20px; /* Añadido para espacio entre elementos */
 }
 
-#Nike_Jordan_1 {
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin-top: 2rem;
+.content-section .text, .content-section .video-container {
+    flex: 1 1 45%; /* Ajuste del tamaño flexible para texto y video */
+    min-width: 300px; /* Asegura que los elementos no sean demasiado pequeños */
 }
 
-#Adidas_Superstar {
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin-top: 2rem;
+.content-section .text {
+    order: 1; /* Por defecto, el texto va primero */
 }
 
-#Converse_All_Star {
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin-top: 2rem;
+.content-section .video-container {
+    order: 2; /* Por defecto, el video va segundo */
 }
 
-#New_Balance_574 {
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin-top: 2rem;
+#Adidas_Superstar .text,
+#New_Balance_574 .text {
+    order: 2; /* En estas secciones, el texto va segundo */
 }
 
-#Reebok_Classic_Leather {
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin-top: 2rem;
+#Adidas_Superstar .video-container,
+#New_Balance_574 .video-container {
+    order: 1; /* En estas secciones, el video va primero */
 }
 
 footer {
@@ -90,5 +89,4 @@ footer {
     text-align: center;
     padding: 1rem 0;
     width: 100%;
-    position: relative;
 }
