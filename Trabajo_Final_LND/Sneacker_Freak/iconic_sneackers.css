@@ -52,6 +52,13 @@ section {
     color:#444
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+}
+
 #Nike_Jordan_1 {
     text-align: left; /* Alinear el texto a la izquierda */
     margin-top: 2rem;
