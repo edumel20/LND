@@ -6,10 +6,6 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
-    background-image: url(''); /* Ruta a la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 body {
@@ -35,7 +31,7 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 4rem); /* Ajusta la altura para tener en cuenta el header y el footer */
+    height: calc(100vh - 4rem); 
     padding: 2rem;
 }
 

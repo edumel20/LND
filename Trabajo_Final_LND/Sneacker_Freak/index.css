@@ -6,10 +6,6 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
-    background-image: url(''); /* Ruta a la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 body {
@@ -23,7 +19,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    position: relative; /* Para posicionar el botón de login */
+    position: relative; 
 }
 
 header h1 {
@@ -51,21 +47,21 @@ header .login-button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Asegura que el contenedor ocupa toda la altura de la pantalla */
+    height: 100vh; 
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Cambia a flex para poner los elementos en línea */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    gap: 1rem; /* Espacio entre elementos */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem; 
 }
 
 nav ul li {
-    margin: 0 10px; /* Ajusta el margen para que los elementos tengan espacio entre ellos */
+    margin: 0 10px; 
 }
 
 nav ul li a img {

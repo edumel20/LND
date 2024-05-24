@@ -57,30 +57,30 @@ section {
     align-items: center;
     justify-content: space-between;
     margin: 2rem 0;
-    gap: 20px; /* Añadido para espacio entre elementos */
+    gap: 20px; 
 }
 
 .content-section .text, .content-section .video-container {
-    flex: 1 1 45%; /* Ajuste del tamaño flexible para texto y video */
-    min-width: 300px; /* Asegura que los elementos no sean demasiado pequeños */
+    flex: 1 1 45%; 
+    min-width: 300px; 
 }
 
 .content-section .text {
-    order: 1; /* Por defecto, el texto va primero */
+    order: 1; 
 }
 
 .content-section .video-container {
-    order: 2; /* Por defecto, el video va segundo */
+    order: 2; 
 }
 
 #Adidas_Superstar .text,
 #New_Balance_574 .text {
-    order: 2; /* En estas secciones, el texto va segundo */
+    order: 2; 
 }
 
 #Adidas_Superstar .video-container,
 #New_Balance_574 .video-container {
-    order: 1; /* En estas secciones, el video va primero */
+    order: 1; 
 }
 
 footer {
